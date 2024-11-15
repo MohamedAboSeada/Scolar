@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholar</title>
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- splide slide css cdn -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <div class="loader"></div>
+    </div>
+    <!-- go top button -->
+    <button class="go__top btn__hide">
+      <i class="bx bx-up-arrow-alt"></i>
+    </button>
+    <!-- nav -->
+    <nav class="nav">
+      <div class="container">
+        <div>
+          <a class="nav__logo" href="#">scolar</a>
+
+          <div class="nav__search">
+            <input
+              class="nav__search-input"
+              type="text"
+              placeholder="type something"
+            />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+        <ul class="nav__menu">
+          <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#services">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#courses">Courses</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#team">Team</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#faqs">FAQs</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#events">Events</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#register">Contact Us</a>
+          </li>
+        </ul>
+        <button class="menu__icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- /nav -->
+    <!-- landing -->
+    <main class="landing">
+      <div class="container">
+        <div class="slider__container">
+          <!-- custome arrows -->
+          <div class="custom__arrows">
+            <button class="next__slide-btn">
+              <i class="bx bxs-chevron-right"></i>
+            </button>
+            <button class="prev__slide-btn">
+              <i class="bx bxs-chevron-left"></i>
+            </button>
+          </div>
+          <!-- slider -->
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div>
+                    <p class="landing__slide-badge">Our Courses</p>
+                    <h1 class="landing__slide-title">
+                      With Scholar Teachers Everything easier
+                    </h1>
+                    <p class="landing__slide-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fuga accusamus facilis natus voluptate facere
+                      necessitatibus obcaecati tempora iste animi vel.
+                    </p>
+                    <div class="landing__slide-btns">
+                      <a class="landing__slide-btn" href="#">Request Demo</a>
+                      <a class="landing__slide-btn" href="#">
+                        <span class="landing__slide-btn-icon"
+                          ><i class="bx bx-play"></i
+                        ></span>
+                        What's Scholar ?
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div>
+                    <p class="landing__slide-badge">Online learning</p>
+                    <h1 class="landing__slide-title">
+                      Online Learning Helps you to save time
+                    </h1>
+                    <p class="landing__slide-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fuga accusamus facilis natus voluptate facere
+                      necessitatibus obcaecati tempora iste animi vel.
+                    </p>
+                    <div class="landing__slide-btns">
+                      <a class="landing__slide-btn" href="#">Request Demo</a>
+                      <a class="landing__slide-btn" href="#">
+                        <span class="landing__slide-btn-icon"
+                          ><i class="bx bx-play"></i
+                        ></span>
+                        What's Online Course ?
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div>
+                    <p class="landing__slide-badge">Best Result</p>
+                    <h1 class="landing__slide-title">
+                      Get Best Result Out of your effort
+                    </h1>
+                    <p class="landing__slide-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fuga accusamus facilis natus voluptate facere
+                      necessitatibus obcaecati tempora iste animi vel.
+                    </p>
+                    <div class="landing__slide-btns">
+                      <a class="landing__slide-btn" href="#">Request Demo</a>
+                      <a class="landing__slide-btn" href="#">
+                        <span class="landing__slide-btn-icon"
+                          ><i class="bx bx-play"></i
+                        ></span>
+                        What's the best result ?
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- /slider -->
+        </div>
+      </div>
+    </main>
+    <!-- /landing -->
+    <!-- services -->
+    <section id="services" class="services">
+      <div class="container">
+        <!-- service -->
+        <div class="service">
+          <div class="service__image">
+            <img src="assets/images/service-01.png" alt="service 1" />
+          </div>
+          <div class="card__details">
+            <h3 class="service__card-title">Online Degrees</h3>
+            <p class="service__card-desc">
+              Whenever you need free templates in HTML CSS, you just remember
+              TemplateMo website.
+            </p>
+            <button class="service__card-btn">Read More</button>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <div class="service__image">
+            <img src="assets/images/service-02.png" alt="service 2" />
+          </div>
+          <div class="card__details">
+            <h3 class="service__card-title">Short Courses</h3>
+            <p class="service__card-desc">
+              You can browse free templates based on different tags such as
+              digital marketing, etc.
+            </p>
+            <button class="service__card-btn">Read More</button>
+          </div>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <div class="service__image">
+            <img src="assets/images/service-03.png" alt="service 3" />
+          </div>
+          <div class="card__details">
+            <h3 class="service__card-title">Web Experts</h3>
+            <p class="service__card-desc">
+              You can start learning HTML CSS by modifying free templates from
+              our website too.
+            </p>
+            <button class="service__card-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- /service -->
+    </section>
+    <!-- /services -->
+
+    <!-- courses -->
+    <section class="courses" id="courses">
+      <div class="container">
+        <div class="special__heading">
+          <p class="special__heading-p">Latest Courses</p>
+          <h1 class="special__heading-h">Latest Courses</h1>
+        </div>
+        <div class="filter">
+          <button class="filter__btn active" value="all">Show All</button>
+          <button class="filter__btn" value="Web Design">Web Design</button>
+          <button class="filter__btn" value="Development">Development</button>
+          <button class="filter__btn" value="Wordpress">Wordpress</button>
+        </div>
+        <div class="courses__cards"></div>
+      </div>
+    </section>
+    <!-- /course -->
+    <!-- Team -->
+    <div class="team" id="team">
+      <div class="special__heading">
+        <p class="special__heading-p">team members</p>
+        <h1 class="special__heading-h">Our Teachers</h1>
+      </div>
+      <div class="container">
+        <!-- member -->
+        <div class="member__card">
+          <div class="member__image">
+            <img src="assets/images/member-01.jpg" alt="member1" />
+          </div>
+          <div class="member__details">
+            <p class="member__role">UX teacher</p>
+            <h3 class="member__name">Sophia Rose</h3>
+            <ul class="social__links">
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- member -->
+        <!-- member -->
+        <div class="member__card">
+          <div class="member__image">
+            <img src="assets/images/member-02.jpg" alt="member2" />
+          </div>
+          <div class="member__details">
+            <p class="member__role">UX teacher</p>
+            <h3 class="member__name">Sophia Rose</h3>
+            <ul class="social__links">
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- member -->
+        <!-- member -->
+        <div class="member__card">
+          <div class="member__image">
+            <img src="assets/images/member-03.jpg" alt="member3" />
+          </div>
+          <div class="member__details">
+            <p class="member__role">UX teacher</p>
+            <h3 class="member__name">Sophia Rose</h3>
+            <ul class="social__links">
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- member -->
+        <!-- member -->
+        <div class="member__card">
+          <div class="member__image">
+            <img src="assets/images/member-04.jpg" alt="member4" />
+          </div>
+          <div class="member__details">
+            <p class="member__role">UX teacher</p>
+            <h3 class="member__name">Sophia Rose</h3>
+            <ul class="social__links">
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social__link" href="#"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- member -->
+      </div>
+    </div>
+    <!-- /Team -->
+    <!-- FAQs -->
+    <div class="faqs" id="faqs">
+      <div class="container">
+        <div class="faq__cards">
+          <div class="faq__card active_faq">
+            <div class="head">
+              <h3 class="faq__card-question">Where shall we begin ?</h3>
+              <i class="bx bx-plus"></i>
+            </div>
+            <div class="body">
+              <p class="faq__card-ans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur asperiores mollitia, doloribus veniam animi
+                temporibus aliquam vitae. Fuga dolores cum animi, autem non
+                exercitationem facilis beatae sequi cupiditate expedita
+                repellat!
+              </p>
+            </div>
+          </div>
+          <div class="faq__card">
+            <div class="head">
+              <h3 class="faq__card-question">How do we work together ?</h3>
+              <i class="bx bx-plus"></i>
+            </div>
+            <div class="body">
+              <p class="faq__card-ans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur asperiores mollitia, doloribus veniam animi
+                temporibus aliquam vitae. Fuga dolores cum animi, autem non
+                exercitationem facilis beatae sequi cupiditate expedita
+                repellat!
+              </p>
+            </div>
+          </div>
+          <div class="faq__card">
+            <div class="head">
+              <h3 class="faq__card-question">Why Scholar is the best ?</h3>
+              <i class="bx bx-plus"></i>
+            </div>
+            <div class="body">
+              <p class="faq__card-ans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur asperiores mollitia, doloribus veniam animi
+                temporibus aliquam vitae. Fuga dolores cum animi, autem non
+                exercitationem facilis beatae sequi cupiditate expedita
+                repellat!
+              </p>
+            </div>
+          </div>
+          <div class="faq__card">
+            <div class="head">
+              <h3 class="faq__card-question">Do we get best support ?</h3>
+              <i class="bx bx-plus"></i>
+            </div>
+            <div class="body">
+              <p class="faq__card-ans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur asperiores mollitia, doloribus veniam animi
+                temporibus aliquam vitae. Fuga dolores cum animi, autem non
+                exercitationem facilis beatae sequi cupiditate expedita
+                repellat!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="special__heading">
+            <p class="special__heading-p">About Us</p>
+            <h1 class="special__heading-h">
+              What make us the best academy online?
+            </h1>
+          </div>
+          <p class="details__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravid risus commodo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- /FAQs -->
+    <!-- Events -->
+    <section class="events" id="events">
+      <div class="special__heading">
+        <p class="special__heading-p">Upcoming</p>
+        <h1 class="special__heading-h">Upcoming Events</h1>
+      </div>
+      <div class="events__container container">
+        <!-- event__item -->
+        <div class="events__item">
+          <div class="events__date"><span>Feb</span><span>16</span></div>
+          <div class="events__details">
+            <div class="events__info-header">
+              <p class="events__tag">web design</p>
+              <h3 class="events__name">UI Best Practices</h3>
+            </div>
+            <ul class="events__info">
+              <li class="events__info-item">
+                <i class="events__icon bx bx-time"></i>
+                <span>22 Hours</span>
+              </li>
+              <li class="events__info-item">
+                <i class="events__icon bx bx-wallet"></i>
+                <span>120<sup>$</sup></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- event__item -->
+        <!-- event__item -->
+        <div class="events__item">
+          <div class="events__date"><span>Feb</span><span>16</span></div>
+          <div class="events__details">
+            <div class="events__info-header">
+              <p class="events__tag">web design</p>
+              <h3 class="events__name">UI Best Practices</h3>
+            </div>
+            <ul class="events__info">
+              <li class="events__info-item">
+                <i class="events__icon bx bx-time"></i>
+                <span>22 Hours</span>
+              </li>
+              <li class="events__info-item">
+                <i class="events__icon bx bx-wallet"></i>
+                <span>120<sup>$</sup></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- event__item -->
+        <!-- event__item -->
+        <div class="events__item">
+          <div class="events__date"><span>Feb</span><span>16</span></div>
+          <div class="events__details">
+            <div class="events__info-header">
+              <p class="events__tag">web design</p>
+              <h3 class="events__name">UI Best Practices</h3>
+            </div>
+            <ul class="events__info">
+              <li class="events__info-item">
+                <i class="events__icon bx bx-time"></i>
+                <span>22 Hours</span>
+              </li>
+              <li class="events__info-item">
+                <i class="events__icon bx bx-wallet"></i>
+                <span>120<sup>$</sup></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- event__item -->
+        <!-- event__item -->
+        <div class="events__item">
+          <div class="events__date"><span>Feb</span><span>16</span></div>
+          <div class="events__details">
+            <div class="events__info-header">
+              <p class="events__tag">web design</p>
+              <h3 class="events__name">UI Best Practices</h3>
+            </div>
+            <ul class="events__info">
+              <li class="events__info-item">
+                <i class="events__icon bx bx-time"></i>
+                <span>22 Hours</span>
+              </li>
+              <li class="events__info-item">
+                <i class="events__icon bx bx-wallet"></i>
+                <span>120<sup>$</sup></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- event__item -->
+      </div>
+    </section>
+    <!-- /Events -->
+    <!-- Register -->
+    <section class="register" id="register">
+      <div class="container">
+        <div class="details">
+          <div class="special__heading">
+            <p class="special__heading-p">Contact Us</p>
+            <h1 class="special__heading-h">Feel free to contact us anytime</h1>
+          </div>
+          <p class="details__p">
+            Thank you for choosing our templates. We provide you best CSS
+            templates at absolutely 100% free of charge. You may support us by
+            sharing our website to your friends.
+          </p>
+          <div class="discount__card">
+            <div class="discount__badge">
+              <span>OFF</span>
+              <p>50%</p>
+            </div>
+            <div class="offer">
+              <p class="offer__valid">
+                valide untill <span class="offer__date">10 Oct 2030</span>
+              </p>
+              <h2 class="offer__text">Special Offer <span>50%</span> OFF!</h2>
+            </div>
+            <button class="offer__btn">
+              <i class="bx bxs-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <form class="register__form">
+          <input type="text" class="normal__input" placeholder="Your Name..." />
+          <input
+            type="text"
+            class="normal__input"
+            placeholder="Your E-Mail..."
+          />
+          <textarea
+            type="text"
+            placeholder="Your Message"
+            class="msg__input"
+          ></textarea>
+          <button type="submit">Send Message Now</button>
+        </form>
+      </div>
+    </section>
+    <!-- /Register -->
+    <!-- footer -->
+    <footer class="footer">
+      <p>all rights recieved &copy; 2024</p>
+    </footer>
+    <!-- /footer -->
+    <!-- splide slide js cdn -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <!-- main js file -->
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
